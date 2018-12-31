@@ -23,19 +23,20 @@ document.getElementById('btn').addEventListener('click', e => {
             const datatatata = res.argMax(1).dataSync()[0];
             
             if (datatatata === 0) {
-                document.getElementById('hi').innerHTML = 'That\'s an orange. Yep. Uh-huh, orange.'
+                document.getElementById('hi').innerHTML = 'That\'s a round apple. A round, red apple.';
               
             }
             else if (datatatata === 1) {
                 
 
-                document.getElementById('hi').innerHTML = 'That\'s a round apple. A round, red apple.'
+                document.getElementById('hi').innerHTML = 'That\'s a yellow banana. Definitely. A banana.';
                 
             }
             
             else if (datatatata === 2) {
                
-                document.getElementById('hi').innerHTML = 'That\'s a yellow banana. Definitely. A banana.'
+                document.getElementById('hi').innerHTML = 'That\'s an orange. Yep. Uh-huh, orange.';
+                
             }
 
         })
